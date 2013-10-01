@@ -22,7 +22,7 @@ sustainable metadata infrastructure for science.
 
 Authors:
 
-[Pascal Christoph](http://lobid.org/person/pc) and [Adrian Pohl](http://lobid.org/person/ap)
+[Pascal Christoph](http://lobid.org/person/pc) and [Adrian Pohl](http://lobid.org/person/ap)  
 Jülicher Str. 6 D-50674 Cologne  
 E-Mail: christoph@hbz-nrw.de  
 E-Mail: pohl@hbz-nrw.de  
@@ -113,7 +113,7 @@ Fachinformationsdienste für die Wissenschaft. 2013, S. 5-6 .]
 Dieser Text befasst sich nur mit der Umsetzung der zweiten genannte Kernaufgabe
 "Aufbau und die Pflege komfortabler Nachweis- und
 Recherchesysteme" und den damit verbundenen Prozessen der Datenaggregation und des
-Datenmanagements. LOD mag in den beiden anderen genannten Aufgabengebieten auch einige Vorteile
+Datenmanagements. LOD mag ebenso in den beiden anderen genannten Aufgabengebieten Vorteile
 mit sich bringen, weil Metadaten auch bei der Auswahl von Ressourcen bzw.
 deren Archivierung eine wichtige Rolle spielen - den Autoren fehlt in diesen Bereichen
 aber die nötige Expertise, so dass dieser Beitrag dazu schweigt.
@@ -232,7 +232,7 @@ Datensets im internationalen Bibliothekskontext siehe die Gruppe "Bibliographic
 Data" im Open-Data-Verzeichnis "The Data Hub": [http://datahub.io/group/bibliographic](http://datahub.io/group/bibliographic)
 .] Der Bibliotheksverbund Bayern (BVB) 
 und der Kooperative Bibliotheksverbund Berlin-Brandenburg (KOBV) sowie
-das hbz stellen ihre Daten sowohl als MARC oder MAB und auch als LOD
+das hbz stellen ihre Daten sowohl als MARC oder MAB als auch als LOD
 bereit und bieten darüber hinaus regelmäßige Aktualisierungen an. Die
 DNB bietet den größten Teil ihrer Daten unter einer offenen Lizenz an
 mit einjähriger ["Moving
@@ -240,14 +240,17 @@ Wall"](https://en.wikipedia.org/wiki/Moving_wall). Für bestimmte Fächer
 lässt sich mit diesem Angebot an offenen Daten u. U. bereits ein guter FID-Recherchedienst aufbauen.
 Dabei sind Monographiedaten ganz gut abgedeckt, oft fehlen
 aber Artikelmetadaten und graue Literatur. Damit das "web of data"
-Realität wird, müssen weitere Daten geöffnet werden. Und dies geschieht
+Realität wird, müssen weitere Daten geöffnet werden. Dies geschieht
 am besten dort, wo diese Daten originär anfallen.
 
 Möglichst viele Verlage, Ersteller von Fachbibliographien, die FIDs selbst und andere
 Metadatenprovider sollten ebenfalls
 dazu übergehen, ihre Metadaten sowie andere für die Recherche nützliche Daten
 (wie z. B. Inhaltsverzeichnisse und Abstracts) als
-Open Data unter CC0 zur Verfügung zu stellen. Ein weiterer wichtiger Schritt bestünde
+Open Data unter CC0^[Die CC0 ist eine Public Domain Dedication. Mit einer
+Public Domain Dedication - oftmals auch als "Waiver" bezeichnet - können
+Werke in die Gemeinfreiheit überführt werden, d. h. eventuell
+an dem Werk bestehende geistige Eigentumsrechte abgegeben werden.] zur Verfügung zu stellen. Ein weiterer wichtiger Schritt bestünde
 in der Überlassung einer kompletten Kopie der digitalen
 Veröffentlichung, z.B. um diese in Volltextsuchmaschinen zu indexieren
 oder um sie zur automatischen Anreicherung der Metadaten
@@ -271,7 +274,7 @@ of documents", also als "Netz von Dokumenten", bezeichnet. LOD hingegen
 kann als "web of data", als "Netz von Daten", bezeichnet werden. Während
 im WWW also Dokumente miteinander verknüpft sind, so sind im LOD-Netz
 Daten miteinander verknüpft. Ein wesentlicher Unterschied von LOD und
-den Hyperlinks zwischen HTML-Dokumenten (also den "Links" in z.B.
+den Hyperlinks zwischen HTML-Dokumenten (also den "Links" in z. B.
 Webseiten) ist die Art der Verknüpfung: Das LOD Paradigma erzwingt
 bedeutungsvolle Beziehungen von Subjekt (also das, was verlinkt wird)
 und dem Objekt (also das, wohin verlinkt wird). Das ist im Vergleich zu
@@ -303,7 +306,7 @@ geschrieben wurden, die im 16 Jhd. geboren sind und mit 'Chemie'
 verschlagwortet sind" einfach realisierbar. Dabei ist es
 ausreichend, einem Metadatensatz lediglich zwei Aussagen ("RDF-Tripel") über ein Dokument hinzuzufügen:
 Der eine Eintrag verknüpft das Dokument mit einer
-LOD-fähigen Schlagwortdatei, z.B. der Dewey Decimal Classification oder
+LOD-fähigen Schlagwortdatei, z. B. der Dewey Decimal Classification oder
 der GND, der zweite Eintrag verknüpft das Dokument mit der Personen ID.
 Alle weiteren Daten (multilinguale natürlichsprachige Bezeichnung des
 Schlagwortes, Lebensdaten des Autors usw.) müssen nicht mit in das Dokument
@@ -403,19 +406,19 @@ größtmögliche Flexibilität bei der Einbindung der Daten
 gegeben.^[Siehe dazu Christoph, Pascal (2013): Datenanreicherung auf LOD-Basis.
 In: Danowski, Patrick / Pohl, Adrian (Hg.): (Open) Linked Data in
 Bibliotheken, S. 139-167. Preprint:
-[http://www.dr0i.de/lib/pages/Datenanreicherung_auf_LOD_Basis.html](http://www.dr0i.de/lib/pages/Datenanreicherung_auf_LOD_Basis.html)].   
+[http://www.dr0i.de/lib/pages/Datenanreicherung_auf_LOD_Basis.html](http://www.dr0i.de/lib/pages/Datenanreicherung_auf_LOD_Basis.html)]  
    
 Durch die Konzentration auf das vascoda-Portal als Mensch-Maschinenschnittstelle
 wurden Maschine-Maschineschnittstellen vernachlässigt.
 Und doch war das Interesse an den Daten groß genug, um vascoda in das ["WorldWideScience"](https://en.wikipedia.org/wiki/WorldWideScience)-Portal
-einzubinden. Dies geschah mittels des sogenannten HTML-Scrapings^[Das ist eine krude Methode,
+einzubinden. Dies geschah mittels des sogenannten HTML-Scrapings.^[Das ist eine krude Methode,
 um aus einfachen, nicht extra zur Datenextraktion hergestellten HTML-Seiten strukturierte
 Daten zu gewinnen. Da der Aufbau von Webseiten sich ändern kann ist diese Technik
 instabil und von deren Einsatz abzuraten.]
 Erst am Ende des Projekts wurde die Einbindung in Dienste der USB
 Köln über eine Schnittstelle testweise realisiert.
 Gemäß dem LOD-Paradigma hingegen sind die Daten immer schon maschinenlesbar.
-D.h. die Daten liegen per definitionem strukturiert
+D. h. die Daten liegen per definitionem strukturiert
 und maschinenlesbar vor, sodass die Einbettung der Daten in andere Applikationen
 sehr viel einfacher und stabiler ist.  
   
@@ -457,7 +460,7 @@ deren Motto des "release early, release often" ein ständiges Testen
 und Anpassen von Software an konkrete Bedürfnisse erlaubt.
 Komplizierte Organisationsprozesse und bürokratische Aufwände können
 so vermieden werden bzw. stehen der Arbeitskette nicht unbedingt im
-Weg - die Abhängigkeit von Entscheidungen auf oberer Ebene (z.B. wie
+Weg - die Abhängigkeit von Entscheidungen auf oberer Ebene (z. B. wie
 das Datenapplikationsprofil aussehen soll) verhindern nicht, dass
 Daten bereits transformiert werden und über Nachweissysteme
 recherchierbar sind. Damit sind evolutionäre, oder auch "iterative",
@@ -636,7 +639,7 @@ freie Software im Web verfügbar. Beispiele sind das im
 culturegraph-Projekt entwickelte
 Metafacture^[[(https://github.com/culturegraph/metafacture-core]((https://github.com/culturegraph/metafacture-core)] und das
 zentrale Tool des [LibreCat](http://librecat.org/), nämlich die Open-Source-Software
-Catmandu^[https://github.com/LibreCat/Catmandu](https://github.com/LibreCat/Catmandu).
+Catmandu^[[https://github.com/LibreCat/Catmandu](https://github.com/LibreCat/Catmandu)].
 
 Bei der Entwicklung des Datentransformationswerkzeugs "Metafacture", das auch im hbz verwendet wird,
 war Modularität und somit
@@ -658,7 +661,7 @@ von
 MARC, MAB, Pica, csv, xml, ntriples.] So können auch ohne Programmierkenntnisse Datentransformationen
 definiert und durchgeführt werden.
 
-Auch für die automatische Datenanreicherung gibt es freie Software, die
+Für die automatische Datenanreicherung gibt es ebenfalls freie Software, die
 diese Aufgabe unterstützt. Z. B. können mit dem im EU-Projekt "LOD2"
 entwickelten [Silk](http://lod2.eu/Project/Silk.html) und auch mit [Limes](http://limes.aksw.org/)
 Zusammenführungen
@@ -666,7 +669,7 @@ von LOD-Daten durchgeführt werden.
 Auch ["culturegraph"](http://www.culturegraph.org) bietet eine
 Plattform für Datenzusammenführung. Synergien entstehen hier
 ebenfalls durch die transparente, offene Zusammenarbeit im Bereich
-Algorithmenentwicklung. So sind z.B. erste Algorithmen zur Bündelung bibliographischer
+Algorithmenentwicklung. So sind z. B. erste Algorithmen zur Bündelung bibliographischer
 Ressourcen - etwa zum Zwecke der Deduplizierung oder FRBRisierung - offen
 publiziert.^[Siehe dazu [http://hub.culturegraph.org/statistics/alg](http://hub.culturegraph.org/statistics/alg).]
 Alle an
@@ -701,7 +704,7 @@ eine Suchvervollständigung anzubieten. Möchte ein anderer Dienstleister
 diese Funktionalität auf eigenen Servern selber anbieten, so kann er auf die komplette
 Software - wie auch auf die Daten - zugreifen, um die Dienste nachzubauen und die
 Software
-weiter (mit) zu entwickeln. Schön wäre es, wenn dabei
+weiter (mit) zu entwickeln. Es ist wünschenswert, dass dabei
 Softwareverbesserungen auch zurückfließen. Erfahrungen mit anderen
 Open-Source-Projekten zeigen, dass genau dies geschieht.
 
@@ -715,10 +718,10 @@ integrieren kann.
 Eine Sammlung fachrelevanter Ressourcen zu betreiben erfordert viel
 intellektuelle Arbeit. Besonders im Bereich der grauen
 Literatur, die teilweise gar nicht erschlossen oder nur mit
-unzureichenden Metadaten ausgestattet ist, ist deshalb der Einsatz von
+unzureichenden Metadaten ausgestattet ist, erweist sich deshalb der Einsatz von
 sog. [Crowdsourcing](https://de.wikipedia.org/wiki/Crowdsourcing)^[...also dem Einsatz
 von freiwilligen Benutzern.]
-unverzichtbar, vor allem vor dem Hintergrund der rapiden Zunahme an solchen
+als unverzichtbar, vor allem vor dem Hintergrund der rapiden Zunahme an solchen
 Quellen. Damit steht der Nutzer nicht einfach vor einer immer größeren Informationsflut, sondern sieht
 sich einer mit ihm interaktiv agierenden Gemeinschaft von
 Gleichgesinnten gegenüber, die bereitwillig und getragen durch ebenjenes
@@ -795,7 +798,7 @@ um z. B. bessere Recherche- und Nachweissysteme zu ermöglichen und die
 Daten in das WWW resp. in das "web of data" zu integrieren. Zudem wurde
 erläutert, dass große Teile dieser Infrastruktur bereits vorhanden
 oder in Entwicklung sind. Entscheidend für diese Metadateninfrastruktur
-ist, dass die Daten samt zeitnahen Updates offen lizensiert zur
+ist, dass die Daten samt zeitnahen Updates offen lizenziert zur
 Verfügung stehen. Die Daten sind die Grundlage der Infrastruktur. Die
 Technik zur Datenhaltung, -transformation, -publikation und Recherche ist
 das geringere Problem - die Datenbeschaffung bleibt die größte
@@ -814,7 +817,7 @@ DFG (2013a): DFG bewilligt drei Projekte zur Neuausrichtung überregionaler
 Informationsservices. In: Information für die Wissenschaft Nr. 11 | 15. März
 2013. URL:
 [http://dfg.de/foerderung/info_wissenschaft/archiv/2013/info_wissenschaft_13_11/index.html](http://dfg.de/foerderung/info_wissenschaft/archiv/2013/info_wissenschaft_13_11/index.html).]
-gleichzeitig veröffentlicht OCLC die WorldCat-Daten auch als Linked Data und auch bei
+gleichzeitig veröffentlicht OCLC die WorldCat-Daten als Linked Data und auch bei
 ExLibris gibt es seit längerem Bewegung in diese
 Richtung.^[Siehe Grant, Carl / Pohl, Adrian (2011): Ex Libris, Alma and Open
 Data . URL:
