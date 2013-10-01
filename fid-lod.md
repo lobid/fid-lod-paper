@@ -58,7 +58,7 @@ der OKFN Working Group on Open Bibliographic Data.
 Inhaltsverzeichnis
 ------------------
 
-1.  [Einführung](#einführung)
+1.  [Einleitung](#einleitung)
 2.  [Was ist Linked Open Data?](#lod)  
     2.1   [Offene Daten als grundlegende Anforderung](#grundlegendes)  
     2.2   [Linked Data - Best Practices](#ld)  
@@ -73,7 +73,7 @@ Inhaltsverzeichnis
 6.  [Fazit](#fazit)
 7.  [Referenzen](#referenzen)
 
-##<a name="einführung"></a>Einführung
+##<a name="einleitung"></a>Einleitung
 
 Die ["Richtlinien für das DFG geförderte System der Fachinformationsdienste für
 die Wissenschaft"](http://www.dfg.de/formulare/12_102/12_102_de.pdf)^[DFG
