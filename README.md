@@ -13,6 +13,4 @@ Hier entsteht der Artikel "LOD für FID - eine Perspektive" für die Zeitschrift
 >tionszentren und kommerziellen Anbietern aussehen? Welche Formen der Kooperation zwischen
 >Bibliotheken etablieren sich?
 
-Der Artikel zeigt auf, warum Linked Open Data (LOD) mit entsprechender Programmierschnittstelle (API) eine Perspektive für SSGs, ViFas und FIDs darstellt. 
-
-Der Autor kennt ViFas und SSGs aus seiner Arbeit von 2008-2010 am [hbz](http://www.hbz-nrw.de/) als technischer Umsetzer des Projekts "[Vascoda](http://de.wikipedia.org/wiki/Vascoda)". Seit 2010 arbeitet er am Linked Open Data Dienst "[lobid.org](http://lobid.org) des hbz .
+![CC0](http://i.creativecommons.org/p/zero/1.0/88x31.png "CC0") Dieses Werk ist unter der CC0 Public Domain Dedication veröffentlicht.
